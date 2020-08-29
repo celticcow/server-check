@@ -1,0 +1,5 @@
+read in line from csv.  
+
+
+first item is IP address
+rest are ports.  need to validate if this is a port number or name
