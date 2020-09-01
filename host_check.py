@@ -81,6 +81,8 @@ def validate_port(port_str):
         return("22")
     elif(port_str == "traceroute"):
         return("0")
+    elif(port_str == "smtp"):
+        return("25")
     elif("-" in port_str):
         portsplit = port_str.split("-")
 
